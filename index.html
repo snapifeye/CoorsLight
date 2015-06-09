@@ -7,16 +7,18 @@
 <!--Twitter Meta-->
 <meta name="twitter:card" content="photo" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-<meta property="og:title" content="My photo from the College World Series"/>
+<meta property="og:title" content="College World Series with Coors Light"/>
 <meta property="og:type" content="article"/>
-<meta property="og:image" content="http://i814.photobucket.com/albums/zz62/only_gators2/CWS-header.png"
-<meta property="og:description"        content="Just had my first taste of Coors Light Citrus Raddler! #LiveSummer " />
-<meta property="article:author"        content="Snapifeye" />
-<meta property="article:publisher"     content="Snapifeye" />
+<meta property="og:image" content="http://i814.photobucket.com/albums/zz62/only_gators2/CWS-header.png">
+<meta property="og:description"        content="We're a the College World Series with Coors Light! Check out my photo on the famcam!" />
+<meta property="article:author"        content="College World Series" />
+<meta property="article:publisher"     content="Coors Light" />
 
 
 <!-- Meta / End -->
 
+<!-- Place this tag in your head or just before your close body tag. -->
+<script src="https://apis.google.com/js/platform.js" async defer></script>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 
@@ -27,11 +29,10 @@
     </script>
 
 		<!-- Need this -->
-    <script type="text/javascript" src="http://events.snapifeye.com/snapifeye-widget/snapifeye-widget-all.min.js"></script>
-    </script>
+		<script type="text/javascript" src="http://events.snapifeye.com/snapifeye-widget/snapifeye-widget-all.min.js"></script>
 
 		<style>
-		html, body { margin: 0px; padding: 0px;background:#ffdf00;!important }
+		html, body { margin: 0px; padding: 0px;background:#fff;!important }
 
 			.sn-widget-gallery--info--event-name{
 				position: absolute;
@@ -74,7 +75,7 @@
 			}
 
 				.sn-widget-wrapper{
-				 background:#ffdf00 !important;
+				 background:#fff !important;
 				 height:auto !important;
 
 			}
@@ -136,17 +137,23 @@
 
 			.sidebar {
 			   position: relative;
-				 padding:50px;
+				 padding:25px;
 				 aligh:center;
 	}
 
+				.tickets {
+					width: 45px;
+					height: 250px;
+					position: fixed;
+					left: 20%;
+					top: 60%;
+				}
 
 			a.MyButton {
 				display:block;
-        padding:10px;
 				box-shadow: 6px 6px 8px #2d2d2d;
 				font-size: 32px;
-				color: white;
+				color: black;
 				text-align:center;
 				line-height:71px;
 				width:auto;
@@ -154,39 +161,9 @@
 				height:71px;
 				border-radius:3px;
 				align:center;
-				background:#f2653b;
+				background:#fff;
 				font-family: Helvetica;
 			}
-
-      #titler{
-         padding:0px 0px 25px 0px;
-  }
-
-
-@media (max-width: 620px){
-      #titler{
-         max-width:450px;
-  }
-}
-
-@media (max-width: 520px){
-      #titler{
-         max-width:350px;
-  }
-}
-
-@media (max-width: 420px){
-      #titler {
-         max-width:250px;
-  }
-}
-
-@media (max-width: 320px){
-      #titler {
-         max-width:200px;
-  }
-}
-
 
 
 </style>
@@ -218,7 +195,7 @@
 		</script>
 
 	</head>
-	<body style="background:#ffdf00">
+	<body style="background:#fff">
 		<div id="fb-root"></div>
 <script>
 window.fbAsyncInit = function() {
@@ -234,10 +211,11 @@ document.getElementById('fb-root').appendChild(e);
 </script>
 
 
-		<div class="sidebar"> <div class="col-md-6">
-      <img id="titler" img src="http://i814.photobucket.com/albums/zz62/only_gators2/CWS-header.png">
+		<div class="sidebar"> <div class="col-md-6"><center>
 
-		<center>
+			<h2 style="color:#000; font-family: Helvetica; padding:0px;">Share your Photo!<h2>
+
+
 		<!-- Facebook -->
 
 		<script language="javascript">
@@ -245,31 +223,40 @@ document.getElementById('fb-root').appendChild(e);
     {window.open("https://www.facebook.com/sharer/sharer.php?u="+escape(window.location.href)+"&t="+document.title, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600');return false; }
 </script>
 
-<a href="javascript:fbshareCurrentPage()" target="_blank" alt="Share on Facebook"><img src = "http://4.bp.blogspot.com/-ne-G24v59mc/Ucl53ygXkXI/AAAAAAAACXg/jzVl8dP56YM/s1600/facebook-share-buttons.png" style="height:30px;width:auto;padding 5px;"></a></a>
+<a href="javascript:fbshareCurrentPage()" target="_blank" alt="Share on Facebook"><img src = "http://4.bp.blogspot.com/-ne-G24v59mc/Ucl53ygXkXI/AAAAAAAACXg/jzVl8dP56YM/s1600/facebook-share-buttons.png" style="height:30px;width:auto;"></a></a>
 
 
 
 		<!-- Twitter -->
-		 <a href="https://twitter.com/share" class="twitter-share-button" data-text="We're at the @cwsomaha!" data-via="CoorLight" data-size="large" data-count="none" data-hashtags="LiveSummer" data-dnt="true">Tweet</a>
+		 <a href="https://twitter.com/share" class="twitter-share-button" data-text="We're at the College World Series with @CoorsLight! #CWS2015" data-via="" data-size="large" data-count="none" data-hashtags="" data-dnt="true">Tweet</a>
 		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
 		<!-- Pintrist -->
-	<a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"  data-pin-color="red" data-pin-height="28"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" style="padding:5px;" /></a>
+	<a href="//www.pinterest.com/pin/create/button/" data-pin-do="buttonBookmark"  data-pin-color="red" data-pin-height="28"><img src="//assets.pinterest.com/images/pidgets/pinit_fg_en_rect_red_28.png" /></a>
 <!-- Please call pinit.js only once per page -->
 <script type="text/javascript" async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
+
+		<!-- Linkedin -->
+<script src="//platform.linkedin.com/in.js" type="text/javascript"> lang: en_US</script>
+<script type="IN/Share"></script>
+
+		<!-- Google Plus -->
+<!-- Place this tag where you want the share button to render. -->
+<div class="g-plus" data-action="share" data-annotation="none" data-height="24"></div>
+
 		<!-- Email -->
+		
+        <a href="javascript:emailCurrentPage()"><img src="http://imgsrv.959theranch.com/image/kfwr2/UserFiles/Image/button_email.png" style="height:30px;width:auto;" alt="Email" /></a>
+		
 
-        <a href="javascript:emailCurrentPage()"><img src="http://imgsrv.959theranch.com/image/kfwr2/UserFiles/Image/button_email.png" style="height:30px;width:auto;padding:5px;" alt="Email" /></a>
+	</div></div class="col-md-6">
 
 
-</center>	</div></div class="col-md-6">
 
-  <center><snapifeye-widget class="50%" params="eventId: 280, period: 75000, custom: false">
+		<center><snapifeye-widget class="50%" params="eventId: 322, period: 4000, custom: false">
 		</snapifeye-widget>
-<div class="col-md-6"><center><a class="MyButton Orange" href="http://bit.ly/1E2vTbq" target="_blank" alt="Learn More">Find Citrus Radler</a></div class="col-md-6">
-
-
+<div class="col-md-6"></div class="col-md-6">
 
 		<script type="text/javascript">
 	(function(d){
@@ -280,6 +267,6 @@ document.getElementById('fb-root').appendChild(e);
 	    f.parentNode.insertBefore(p, f);
 	}(document));
 	</script>
-
+		
 	</body>
 </html>
